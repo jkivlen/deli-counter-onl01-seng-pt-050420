@@ -1,7 +1,7 @@
 katzDeli = [];
 
-def currentLine(line){
-  if(!line.length) {
+def line(number){
+  if(!number.length) {
     return "The line is currently empty.";
   }
   var lineNamesandNumbers = [];
@@ -13,7 +13,7 @@ def currentLine(line){
   return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
 
-function nowServing(line) {
+def now_Serving(line) {
   if(!line.length) {
     console.log("There is nobody waiting to be served!")
     return "There is nobody waiting to be served!"
