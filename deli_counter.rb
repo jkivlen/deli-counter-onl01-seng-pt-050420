@@ -5,5 +5,6 @@ def line(number)
   
 def take_a_number(katz_deli)
   counter = 1
-  katz_deli.each 
+  katz_deli = []
   puts katz_deli.last
+end
